@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.chat-container{
+  margin-top: 5vh;
+  height: 95vh;
+  width: 40vw;
+  margin: auto auto;
+}
+
+.messages-container {
+  height: 85vh;
+  border: 1px solid #ccc;
+  margin-bottom: 2vh;
+  margin-top: 5vh;
+  padding: 10px;
+  overflow-y: scroll;
+}
+
+.chat-container form {
+  margin: auto auto;
+  height: 5vh;
+}
+
+.chat-container form input {
+  width: 88%;
+  height: 3rem;
+  font-size: 1.4rem;
+}
+.chat-container form button {
+  width: 10%;
+  height: 3rem;
+  float: right;
+  max-width: 100px;
+  min-width: 40px;
+  font-size: 1.4rem;
+}
